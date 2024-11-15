@@ -2,7 +2,7 @@ from ophyd import Component as Cpt
 from ophyd import Device, EpicsMotor
 
 
-class SimMotor05(Device):
+class SimMotor01(Device):
     """
     Pulled from substitutions:
     - ["XF:31ID1-ES", "{MC:01-Ax:1}", "MTR1", "0", "MC01 Sim X Axis", "mm"]
